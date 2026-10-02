@@ -1,0 +1,16 @@
+cat > .gitignore << 'EOF'
+# Carpeta de compilación
+build/
+
+# Ejecutable
+compiler
+
+# Archivos de macOS
+.DS_Store
+__MACOSX/
+
+# Archivos de editor
+.vscode/
+.idea/
+*.swp
+EOF

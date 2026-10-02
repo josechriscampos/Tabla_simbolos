@@ -1,0 +1,16 @@
+var:str hello = "Hello world";
+
+var:int result = 3+4;
+var:int other = result -1;
+var:int multi = 5 * 6;
+var:int division = 20 / 4;
+var:int combinado = (2 + 3) * 4 - 10 / 2;
+var:int con_variable = result * 2;
+
+printv hello;
+printv result;
+printv other;
+printv multi;
+printv division;
+printv combinado;
+printv con_variable;
